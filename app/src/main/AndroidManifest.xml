@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.login">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/menleseralogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Login">
+        <activity
+            android:name=".projectactivity"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".resetpassword"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".project"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".job"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".freelancehomepage"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".userprofileprojectowner"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".userprofilefreelance"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".projectownersetting"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".projectownerprojects"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".hiringfreelance"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".freelancesetting"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".freelancejob"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".freelanceprojects"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".companyjob"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".companyprojects"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".projownerhomepage"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".userprofilecompany"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".aboutus"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".companysetting"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".bottomnavbar"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".projectowner_registeration"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".company_registeration"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".freelance_registeration"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".activity_pickrole"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:screenOrientation="fullSensor"
+            android:exported="true" />
+        <activity
+            android:name=".first_page"
+            android:exported="true" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

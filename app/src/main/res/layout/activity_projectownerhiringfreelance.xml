@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hiringfreelance">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarlogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/projectowner_topmenu_logo_navigation"
+        android:background="@android:color/transparent"
+        app:labelVisibilityMode="labeled"
+        app:itemIconTint="@color/bottomnav"
+        app:itemTextColor="@color/bottomnav"
+        app:hideOnScroll="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Freelancers"
+        android:layout_gravity="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue"
+        android:layout_centerInParent="true"/>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        app:fabCradleRoundedCornerRadius="50dp"
+        app:fabCradleMargin="10dp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:menu="@menu/projectowner_menu_navigation"
+            android:background="@android:color/transparent"
+            app:labelVisibilityMode="labeled"
+            app:itemIconTint="@color/bottomnav"
+            app:itemTextColor="@color/bottomnav"
+            app:hideOnScroll="true"/>
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/projectOwneraddplus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_plus_24"
+        app:maxImageSize="50dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/white"
+        app:layout_anchor="@id/bottomAppBar" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

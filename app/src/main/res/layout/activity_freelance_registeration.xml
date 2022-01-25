@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/blue_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="60dp"
+            android:text="Freelancer"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:letterSpacing="0.03" />
+
+    </FrameLayout>
+
+     <ScrollView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="vertical">
+
+             <ImageButton
+                 android:id="@+id/imagefreelance"
+                 android:layout_width="100dp"
+                 android:layout_height="100dp"
+                 android:layout_marginLeft="110dp"
+                 android:scaleType="fitXY"
+                 android:background="@drawable/blue_border_rounded_cornwe"
+                 android:src="@drawable/ic_baseline_image_freelance_24"/>
+
+             <EditText
+                 android:id="@+id/freelanceFullName"
+                 android:layout_width="350dp"
+                 android:layout_height="45dp"
+                 android:hint="Full Name"
+                 android:background="@drawable/blue_border_rounded_cornwe"
+                 android:textColor="@color/black"
+                 android:textStyle="bold"
+                 android:layout_marginTop="20dp"
+                 android:paddingLeft="20dp" />
+
+             <EditText
+                 android:id="@+id/freelanceEmail"
+                 android:layout_width="350dp"
+                 android:layout_height="45dp"
+                 android:hint="Email Address"
+                 android:inputType="textEmailAddress"
+                 android:background="@drawable/blue_border_rounded_cornwe"
+                 android:textColor="@color/black"
+                 android:textStyle="bold"
+                 android:layout_marginTop="20dp"
+                 android:paddingLeft="20dp" />
+
+             <EditText
+                 android:id="@+id/freelancePhoneNo"
+                 android:layout_width="350dp"
+                 android:layout_height="45dp"
+                 android:hint="Phone Number"
+                 android:inputType="number"
+                 android:background="@drawable/blue_border_rounded_cornwe"
+                 android:textColor="@color/black"
+                 android:textStyle="bold"
+                 android:layout_marginTop="20dp"
+                 android:paddingLeft="20dp" />
+
+             <Spinner
+                 android:id="@+id/freelanceProfession"
+                 android:layout_width="match_parent"
+                 android:layout_height="45dp"
+                 android:layout_marginTop="20dp"
+                 android:background="@drawable/blue_border_rounded_cornwe"
+                 android:entries="@array/FREELANCEPROFESSION" />
+
+             <EditText
+                 android:id="@+id/FreelanceExpyear"
+                 android:layout_width="350dp"
+                 android:layout_height="45dp"
+                 android:hint="Experience in Years (if any)"
+                 android:inputType="number"
+                 android:background="@drawable/blue_border_rounded_cornwe"
+                 android:textColor="@color/black"
+                 android:textStyle="bold"
+                 android:layout_marginTop="20dp"
+                 android:paddingLeft="20dp" />
+
+             <EditText
+                 android:id="@+id/freelancepassword"
+                 android:layout_width="350dp"
+                 android:layout_height="45dp"
+                 android:hint="Password"
+                 android:background="@drawable/blue_border_rounded_cornwe"
+                 android:textColor="@color/black"
+                 android:textStyle="bold"
+                 android:layout_marginTop="20dp"
+                 android:paddingLeft="20dp" />
+
+             <Button
+                 android:id="@+id/freelanceregister"
+                 android:layout_width="350dp"
+                 android:layout_height="50dp"
+                 android:background="@drawable/blue_border_rounded_cornwe"
+                 android:text="Register"
+                 android:layout_marginTop="30dp"
+                 android:textSize="18dp"
+                 android:textStyle="bold"
+                 android:textColor="@color/white" />
+         </LinearLayout>
+     </ScrollView>
+
+</LinearLayout>
+</ScrollView>

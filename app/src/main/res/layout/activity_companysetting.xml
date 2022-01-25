@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".companysetting">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarlogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:hideOnScroll="true"
+        app:itemIconTint="@color/bottomnav"
+        app:itemTextColor="@color/bottomnav"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/company_topmenu_logo_navigation"
+        app:layout_collapseMode="pin"/>
+
+    <ImageButton
+        android:id="@+id/companyImageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="70dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/blue_border_rounded_cornwe"
+        android:src="@drawable/ic_baseline_image_company_24" />
+
+
+    <TextView
+        android:id="@+id/companyprofilename"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/companyImageButton"
+        android:text="Name"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/companyprofilenumber"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/companyprofilename"
+        android:text="Phone Number"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="270dp"
+        android:backgroundTint="@android:color/white"
+        android:drawableLeft="@drawable/ic_baseline_perm_identity_24"
+        android:paddingRight="225dp"
+        android:text="Profile"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/shareapp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/profile"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/white"
+        android:drawableLeft="@drawable/ic_baseline_share_24"
+        android:text="Share App"
+        android:paddingRight="210dp"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/shareapp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/white"
+        android:text="About Us"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingRight="210dp"
+        android:drawableLeft="@drawable/ic_baseline_info_24"/>
+
+    <Button
+        android:id="@+id/privacy"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/aboutus"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/white"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:paddingRight="170dp"
+        android:text="Privacy Policy"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/privacy"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blue_border_rounded_cornwe"
+        android:backgroundTint="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_baseline_power_settings_white_24"
+        android:paddingRight="30dp"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/logout">
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="65dp"
+            android:background="@color/white"
+            app:fabCradleMargin="10dp"
+            app:fabCradleRoundedCornerRadius="50dp">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                app:hideOnScroll="true"
+                app:itemIconTint="@color/bottomnav"
+                app:itemTextColor="@color/bottomnav"
+                app:labelVisibilityMode="labeled"
+                app:menu="@menu/company_menu_navigation" />
+
+        </com.google.android.material.bottomappbar.BottomAppBar>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/companyaddplus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/white"
+            android:clickable="true"
+            android:src="@drawable/ic_baseline_plus_24"
+            app:layout_anchor="@id/bottomAppBar"
+            app:maxImageSize="50dp" />
+
+        <LinearLayout
+            android:id="@+id/jobLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:gravity="bottom|end"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            app:layout_anchor="@id/bottomAppBar">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/companyaddjob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="180dp"
+                android:layout_marginBottom="90dp"
+                android:clickable="true"
+                android:src="@drawable/ic_baseline_job_24"
+                app:backgroundTint="@color/grey_20"
+                app:fabSize="mini"
+                app:layout_anchor="@id/bottomAppBar"
+                app:maxImageSize="30dp" />
+
+            <TextView
+                android:id="@+id/add_Compjob_action_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="53dp"
+                android:text="Job"
+                android:textColor="@color/blue"
+                app:layout_anchor="@id/bottomAppBar" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/projLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:layout_marginBottom="140dp"
+            android:gravity="bottom|end"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            app:layout_anchor="@id/bottomAppBar">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/companyaddproj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="180dp"
+                android:clickable="true"
+                android:src="@drawable/ic_baseline_project_24"
+                app:backgroundTint="@color/grey_20"
+                app:fabSize="mini"
+                app:layout_anchor="@id/bottomAppBar"
+                app:maxImageSize="30dp" />
+
+            <TextView
+                android:id="@+id/add_Compproj_action_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:text="Project"
+                android:textColor="@color/blue"
+                app:layout_anchor="@id/bottomAppBar" />
+
+        </LinearLayout>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</RelativeLayout >
+
+</ScrollView>
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/companyhome"
+        android:title="Home"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:id="@+id/companyprojects"
+        android:title="Project"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_project_24"/>
+
+    <item
+        android:id="@+id/holder"
+        android:title=""
+        app:showAsAction="ifRoom"
+        android:enabled="false"/>
+
+    <item
+        android:id="@+id/companyjob"
+        android:title="Jobs"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_job_24"/>
+
+    <item
+        android:id="@+id/companysetting"
+        android:title="Setting"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_setting_24"/>
+
+
+</menu>

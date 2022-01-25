@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/drawable-anydpi/ic_down.xml" value="0.3375893769152196" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/drawable-anydpi/ic_down2.xml" value="0.3375893769152196" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/drawable-anydpi/ic_down3.xml" value="0.3375893769152196" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.35885416666666664" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/drawable/background.xml" value="0.35885416666666664" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/drawable/cursor_color.xml" value="0.35885416666666664" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.35885416666666664" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/drawable/selector.xml" value="0.35885416666666664" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/drawable/side_nav_bar.xml" value="0.35885416666666664" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/drawable/splashscreen.xml" value="0.35885416666666664" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/drawable/style_company.xml" value="0.3375893769152196" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/drawable/style_freelance.xml" value="0.3375893769152196" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/drawable/style_projectowner.xml" value="0.3375893769152196" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/drawable/style_spinner.xml" value="0.33240740740740743" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_aboutus.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_bottomnavbar.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_category.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_company_registeration.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_companyafterlogin.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_companyhome.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_companyhomepage.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_companyjob.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_companyprojects.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_companysetting.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_dashboard.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_drawerlayout.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_drawlayout.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_first_page.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_freelance_registeration.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_freelancehome.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_freelancehomepage.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_freelancejob.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_freelanceproject.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_freelanceprojects.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_freelancesetting.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_hiringfreelance.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_job.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_latestjob.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_login.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_logout.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_nav_drawer.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_navbar.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_navigationbar.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_pickrole.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_privacy.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_profile.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_project.xml" value="0.3203125" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_projectactivity.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_projectowner_registeration.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_projectownerhiringfreelance.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_projectownerhome.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_projectownerprojects.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_projectownersetting.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_projownerhomepage.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_projownerproject.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_rateapp.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_register.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_resetpassword.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_savedjob.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_savedjobs.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_setting.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_shareapp.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_sidebarnav.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_sidemenu.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_sidenav.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_splash_screen.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_splashscreen.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_userprofile.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_userprofilecompany.xml" value="0.33" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_userprofilefreelance.xml" value="0.3203125" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/activity_userprofileprojectowner.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/app_bar_navbar.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/companyappbar.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/content_navbar.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/dropdownlist_item.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/fragment_gallery.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/fragment_home.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/fragment_slideshow.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/headerfile.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/login.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/login2.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/main_nav_drawer.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/main_toolbar.xml" value="0.33" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/nav_header_navbar.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/navheader.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/pickrole.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/registration.xml" value="0.33" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/layout/style_spinner.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/menu/activity_main_drawer.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/menu/company.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/menu/company_menu_navigation.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/menu/company_topmenu_logo_navigation.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/menu/company_topmenu_navigation.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/menu/freelance.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/menu/freelance_menu_navigation.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/menu/freelance_topmenu_logo_navigation.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/menu/freelance_topmenu_navigation.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/menu/iconmenu.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/menu/menu_navigation.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/menu/navbar.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/menu/profilenavbar.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/menu/projectowner_menu_navigation.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/menu/projectowner_topmenu_logo_navigation.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/menu/projectowner_topmenu_navigation.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/menu/sidemenu.xml" value="0.32395833333333335" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.35885416666666664" />
+        <entry key="..\:/Users/Beki Becca/AndroidStudioProjects/Login/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.35885416666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

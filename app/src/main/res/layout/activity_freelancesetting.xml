@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".freelancesetting">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarlogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:hideOnScroll="true"
+        app:itemIconTint="@color/bottomnav"
+        app:itemTextColor="@color/bottomnav"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/freelance_topmenu_logo_navigation" />
+
+    <ImageButton
+        android:id="@+id/freelanceImageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="70dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/blue_border_rounded_cornwe"
+        android:src="@drawable/ic_baseline_image_freelance_24" />
+
+    <TextView
+        android:id="@+id/freelanceprofilename"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/freelanceImageButton"
+        android:text="Name"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/freelanceprofilenumber"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/freelanceprofilename"
+        android:text="Phone Number"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+
+    <Button
+        android:id="@+id/freelanceprofile"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="270dp"
+        android:backgroundTint="@android:color/white"
+        android:drawableLeft="@drawable/ic_baseline_perm_identity_24"
+        android:paddingRight="225dp"
+        android:text="Profile"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/shareapp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/freelanceprofile"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/white"
+        android:drawableLeft="@drawable/ic_baseline_share_24"
+        android:text="Share App"
+        android:paddingRight="210dp"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/shareapp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/white"
+        android:text="About Us"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:paddingRight="210dp"
+        android:drawableLeft="@drawable/ic_baseline_info_24"/>
+
+    <Button
+        android:id="@+id/privacy"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/aboutus"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@android:color/white"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:paddingRight="170dp"
+        android:text="Privacy Policy"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/freelancelogout"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/privacy"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/blue_border_rounded_cornwe"
+        android:backgroundTint="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_baseline_power_settings_white_24"
+        android:paddingRight="30dp"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/freelancelogout">
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            app:fabCradleMargin="10dp"
+            app:fabCradleRoundedCornerRadius="50dp">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                app:hideOnScroll="true"
+                app:itemIconTint="@color/bottomnav"
+                app:itemTextColor="@color/bottomnav"
+                app:labelVisibilityMode="labeled"
+                app:menu="@menu/freelance_menu_navigation" />
+
+        </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</RelativeLayout>
+
+</ScrollView>

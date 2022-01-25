@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/logo"
+        android:icon="@drawable/menleseralogo"
+        android:title=""
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/name"
+        android:title="ምን ልስራ"
+        android:iconTint="@color/blue"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/holder"
+        android:title=""
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/holder1"
+        android:title=""
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/holder2"
+        android:title=""
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/holder3"
+        android:title=""
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/holder4"
+        android:title=""
+        app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/companynotification"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:title="Notification"
+        android:iconTint="@color/white"
+        app:showAsAction="always"/>
+
+
+</menu>

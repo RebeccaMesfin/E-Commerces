@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".project">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/blue_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="60dp"
+            android:text="Project"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:letterSpacing="0.03" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/projTitle"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:hint="Project Title"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp" />
+
+        <EditText
+            android:id="@+id/projDesc"
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:hint="Project Description"
+            android:inputType="text"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp" />
+
+            <Spinner
+                android:id="@+id/projType"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/blue_border_rounded_cornwe"
+                android:entries="@array/PROJECTTYPE" />
+
+        <EditText
+            android:id="@+id/projSalary"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            android:hint="Salary"
+            android:inputType="number"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/projProfession"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/blue_border_rounded_cornwe"
+                android:entries="@array/PROJECTPROFESSION" />
+
+
+        <EditText
+            android:id="@+id/projSkillyear"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:hint="Project Skill in Years (if any)"
+            android:inputType="number"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp" />
+
+        <Button
+            android:id="@+id/btndatepicker"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:text="Pick a Date"
+            android:backgroundTint="@color/blue"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:background="@android:color/transparent"
+            android:textColor="@color/blue"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/projDone"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@drawable/blue_border_rounded_cornwe"
+            android:text="Done"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

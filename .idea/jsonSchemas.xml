@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="73814-working-people">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="73814-working-people" />
+              <option name="relativePathToSchema" value="app/src/main/res/raw/73814-working-people.json" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="app/src/main/res/raw/73814-working-people.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>
